@@ -1,0 +1,30 @@
+# Raw data (downloadable from Kaggle — not meant to live in git)
+data/
+
+# Data splits (regeneratable by running Phase 1 notebook)
+splits/
+
+# Trained models (large binary files, regeneratable by running notebooks)
+models/
+gan_models/
+
+# GAN-generated synthetic images (regeneratable)
+synthetic_images/
+
+# Large results — GAN sample grids and training artifacts
+results/gan_samples_cardiomegaly/
+results/gan_samples_pneumonia/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Credentials
+kaggle.json
+*.pem

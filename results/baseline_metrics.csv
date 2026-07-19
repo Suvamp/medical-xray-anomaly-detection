@@ -1,0 +1,7 @@
+class,auc_roc,f1,precision,recall,model
+No Finding,0.517227092046146,0.8439519852262235,0.7300319488817891,1.0,baseline_cnn
+Atelectasis,0.5450492004920049,0.0,0.0,0.0,baseline_cnn
+Effusion,0.5347232207045292,0.0,0.0,0.0,baseline_cnn
+Cardiomegaly,0.5216557017543859,0.0,0.0,0.0,baseline_cnn
+Pneumonia,0.6614442643616064,0.0,0.0,0.0,baseline_cnn
+MACRO_AVG,0.5560198958717344,0.1687903970452447,0.14600638977635783,0.2,baseline_cnn
